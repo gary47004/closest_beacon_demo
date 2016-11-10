@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="closest_beacon_demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="應上班時間：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5aE-Wj-duc">
+                                <rect key="frame" x="0.0" y="28" width="600" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="2lZ-Uo-zft"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" restorationIdentifier="start" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mg5-8s-Ihn">
+                                <rect key="frame" x="0.0" y="57" width="600" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="sHt-eR-tPS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="上班打卡時間：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5SS-ph-jXF">
+                                <rect key="frame" x="0.0" y="86" width="600" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="4B5-LA-8gZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K7u-ur-pqU">
+                                <rect key="frame" x="0.0" y="115" width="600" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="wNm-1e-iER"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="應下班時間：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y6a-jK-Ga8">
+                                <rect key="frame" x="0.0" y="144" width="600" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="XJN-R0-zov"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygc-cg-uy3">
+                                <rect key="frame" x="0.0" y="173" width="600" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="AKm-uh-NKV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="下班打卡時間：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Wn-o0-uo4">
+                                <rect key="frame" x="0.0" y="202" width="600" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="SA7-MU-I0N"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fh-Ko-Pzf">
+                                <rect key="frame" x="0.0" y="231" width="600" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="tkX-gi-s5i"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hfi-pv-GKR">
+                                <rect key="frame" x="270" y="341" width="60" height="30"/>
+                                <state key="normal" title="開始打卡"/>
+                                <connections>
+                                    <action selector="rangingButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Rh-LS-Ga1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y64-Wb-3mf">
+                                <rect key="frame" x="277" y="433" width="46" height="27"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tv7-7n-2Th"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Mg5-8s-Ihn" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="0wh-cP-ZEX"/>
+                            <constraint firstItem="ygc-cg-uy3" firstAttribute="top" secondItem="Y6a-jK-Ga8" secondAttribute="bottom" constant="-21" id="0wx-rO-7Xc"/>
+                            <constraint firstItem="Y6a-jK-Ga8" firstAttribute="top" secondItem="K7u-ur-pqU" secondAttribute="bottom" constant="-21" id="8tW-X5-7A0"/>
+                            <constraint firstItem="4Wn-o0-uo4" firstAttribute="top" secondItem="ygc-cg-uy3" secondAttribute="bottom" constant="-21" id="AtN-uR-m5c"/>
+                            <constraint firstItem="5aE-Wj-duc" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Hjr-Q3-nSS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hfi-pv-GKR" secondAttribute="trailing" constant="250" id="MbH-6V-FhZ"/>
+                            <constraint firstItem="5SS-ph-jXF" firstAttribute="top" secondItem="Mg5-8s-Ihn" secondAttribute="bottom" constant="-21" id="PvS-tQ-4w7"/>
+                            <constraint firstItem="K7u-ur-pqU" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="QpC-tn-QSh"/>
+                            <constraint firstItem="5SS-ph-jXF" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Wjt-zC-TdZ"/>
+                            <constraint firstItem="Mg5-8s-Ihn" firstAttribute="top" secondItem="5aE-Wj-duc" secondAttribute="bottom" constant="-21" id="Xav-tx-4nT"/>
+                            <constraint firstItem="5aE-Wj-duc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="d15-Bj-lrR"/>
+                            <constraint firstItem="hfi-pv-GKR" firstAttribute="top" secondItem="6fh-Ko-Pzf" secondAttribute="bottom" constant="60" id="hs1-22-yxG"/>
+                            <constraint firstItem="Y6a-jK-Ga8" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="iqV-tx-qcv"/>
+                            <constraint firstItem="6fh-Ko-Pzf" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="j1p-Dv-l2E"/>
+                            <constraint firstItem="K7u-ur-pqU" firstAttribute="top" secondItem="5SS-ph-jXF" secondAttribute="bottom" constant="-21" id="lNg-cL-UAD"/>
+                            <constraint firstItem="ygc-cg-uy3" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="nYy-0V-UO3"/>
+                            <constraint firstItem="Y64-Wb-3mf" firstAttribute="top" secondItem="hfi-pv-GKR" secondAttribute="bottom" constant="62" id="pC2-ct-Xjc"/>
+                            <constraint firstItem="Y64-Wb-3mf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="q7X-3c-tqK"/>
+                            <constraint firstItem="hfi-pv-GKR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="250" id="uUV-Ud-Zz0"/>
+                            <constraint firstItem="6fh-Ko-Pzf" firstAttribute="top" secondItem="4Wn-o0-uo4" secondAttribute="bottom" constant="-21" id="y1X-MX-AtN"/>
+                            <constraint firstItem="4Wn-o0-uo4" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="y6Q-G8-iFb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="arrivalTime" destination="K7u-ur-pqU" id="qTG-01-iJi"/>
+                        <outlet property="departureTime" destination="6fh-Ko-Pzf" id="hfu-gq-K0g"/>
+                        <outlet property="endTime" destination="ygc-cg-uy3" id="ZUQ-xP-LvU"/>
+                        <outlet property="startTime" destination="Mg5-8s-Ihn" id="Ykx-rI-6Dk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="277"/>
+        </scene>
+    </scenes>
+</document>

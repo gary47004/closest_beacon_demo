@@ -1,0 +1,6 @@
+framework module Pods_closest_beacon_demoUITests {
+  umbrella header "Pods-closest_beacon_demoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
