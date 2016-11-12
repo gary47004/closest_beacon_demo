@@ -181,6 +181,10 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             let number = String(0-intervalA!)
             let late : [String : String] = ["late" : number]
             databaseRef.child(storagePlace).updateChildValues(late)
+        }else{
+            let number = "0"
+            let late : [String : String] = ["late" : number]
+            databaseRef.child(storagePlace).updateChildValues(late)
         }
     
     }
@@ -196,7 +200,10 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             let number = String(intervalB!-0)
             let leaveEarly : [String : String] = ["leaveEarly" : number]
             databaseRef.child(storagePlace).updateChildValues(leaveEarly)
-            
+        }else{
+            let number = "0"
+            let leaveEarly : [String : String] = ["leaveEarly" : number]
+            databaseRef.child(storagePlace).updateChildValues(leaveEarly)
         }
 
     }
